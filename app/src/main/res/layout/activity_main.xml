@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_us_heading"
+        android:textStyle="bold"
+        android:id="@+id/article_heading"
+        android:padding="@dimen/padding"
+        android:textSize="30sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/article_heading"
+        android:text="@string/contact_us_subheading"
+        android:id="@+id/article_subheading"
+        android:padding="@dimen/padding"
+        android:textSize="20sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+    <TextView
+        android:id="@+id/article"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/article_subheading"
+        android:layout_marginTop="0dp"
+        android:lineSpacingExtra="5sp"
+        android:padding="@dimen/padding"
+        android:text="@string/paragraph" />
+
+    <TextView
+        android:id="@+id/facebook_jdsports"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/article_subheading"
+        android:layout_marginTop="465dp"
+        android:text="@string/on_facebook_jdsportsmalaysia" />
+
+    <TextView
+        android:id="@+id/twintter_jdhelpteam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/article_subheading"
+        android:layout_marginTop="427dp"
+        android:text="@string/on_twitter_jdhelpteam" />
+
+
+</RelativeLayout>

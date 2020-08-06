@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Contact Us</string>
+    <string name="contact_us_heading">Contact Us</string>
+    <string name="contact_us_subheading">Contact Us</string>
+    <string name="paragraph">Our Customer Care Team are on hand to help, you can contact us:\n\n
+By email:
+\n\n
+Our email address is customercare@jdsports.my
+\n\n
+Ensure you give us your order number for a quicker resolution.
+\n\n
+        By phone:
+\n\n
+For customer care enquiry, please call: +6015-4877 0606
+\n\n
+9:00 AM – 1:00 PM, 2:00 PM – 6:00PM (Mondays to Fridays, except Public Holidays).
+\n\n
+Calls are charged at your standard network rate and may be recorded for training purposes.
+</string>
+    <string name="on_facebook_jdsportsmalaysia">On Facebook:/jdsportsmalaysia</string>
+    <string name="on_twitter_jdhelpteam">On Twitter: @jdhelpteam</string>
+</resources>
